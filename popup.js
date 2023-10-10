@@ -4,5 +4,11 @@ const CONSTANTS = {
     // Add more constants as needed
   };
   
-  document.getElementById("constants-display").innerText = JSON.stringify(CONSTANTS, null, 2);
-  
+const constantsDisplay = document.getElementById("constants-display");
+
+let formattedText = '';
+Object.keys(CONSTANTS).forEach((key, index) => {
+  formattedText += `${index + 1}. ${key} | ${CONSTANTS[key]}\n`;
+});
+
+constantsDisplay.textContent = formattedText;

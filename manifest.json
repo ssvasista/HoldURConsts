@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Constants Holder",
+    "version": "1.0",
+    "description": "An extension to hold a few constants.",
+    "permissions": ["activeTab"],
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  

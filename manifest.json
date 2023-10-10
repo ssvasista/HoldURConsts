@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Constants Holder",
     "version": "1.0",
     "description": "An extension to hold a few constants.",
